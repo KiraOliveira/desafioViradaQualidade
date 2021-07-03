@@ -6,8 +6,8 @@ Library          Collections
 
 *** Variables ***
 ${CADASTRO}    https://conexaoqa.herokuapp.com/api/
-&{DADOS}       name=GislaineOliveira
-...            email=gislaine1@exemplo.com
+&{DADOS}       name=GislaineOliveira1
+...            email=gislaine2@exemplo.com
 ...            password=123456
 
 
@@ -34,9 +34,9 @@ Conectar a minha API
 
   ### Ações ###
 Cadastrar Usuário
-    ${RESPOSTA}          Post On Session                                                                             conexaoQA    users
-    ...                  data={"name": "GislaineOliveira","email": "gislaine1@exemplo.com","password": "123456"} 
-    ...                  headers=${HEADERS}                                                                          
+    ${RESPOSTA}          Post On Session                                                                              conexaoQA    users
+    ...                  data={"name": "GislaineOliveira1","email": "gislaine2@exemplo.com","password": "123456"} 
+    ...                  headers=${HEADERS}                                                                           
     Log                  ${RESPOSTA.text} 
     Set Test Variable    ${RESPOSTA}
 
