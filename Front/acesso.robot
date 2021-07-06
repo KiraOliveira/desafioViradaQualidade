@@ -5,11 +5,11 @@ Test Teardown    Fechar navegador
 
 
 *** Test Cases ***
-Caso 01: Criar um Cadastro
-    Acessar a página home do site
-    Clicar no botão de "Cadastrar"
-    Preencher dados obrigatórios
-    Clicar em "Cadastrar"
+#Caso 01: Criar um Cadastro
+#    Acessar a página home do site
+#    Clicar no botão de "Cadastrar"
+#    Preencher dados obrigatórios
+#    Clicar em "Cadastrar"
 
 Caso 02: Realizar Login
     Acessar a página home do site

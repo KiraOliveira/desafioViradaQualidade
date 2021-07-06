@@ -56,6 +56,18 @@ Cadastrar perfil do Usuário
     Log                  ${RESPOSTA.text}
     Set Test Variable    ${RESPOSTA}
 
+Listar perfis
+    ${RESPOSTA}          Get on Session        conexaoQA    profile
+    ...                  headers=${HEADERS}
+    Log                  ${RESPOSTA.text}
+    Set Test Variable    ${RESPOSTA}
+
+Listar rep GitHub
+    ${RESPOSTA}          Get on Session        conexaoQA    profile/github/KiraOliveira
+    ...                  headers=${HEADERS}
+    Log                  ${RESPOSTA.text}      
+    Set Test Variable    ${RESPOSTA}
+
 ### Conferências ###
 Conferir o status code
     [Arguments]                   ${STATUSCODE_DES}
