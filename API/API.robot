@@ -18,3 +18,14 @@ Cadastrar Perfil
     Cadastrar perfil do Usuário
     Conferir o status code         200
 
+Listar os perfis
+    Listar perfis
+    Conferir o status code    200
+
+#Listar perfil pela ID
+#    Listar perfil 
+#    Conferir o status code    200    
+
+Listar repositórios do GitHub
+    Listar rep GitHub
+    Conferir o status code    200
